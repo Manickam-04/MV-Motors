@@ -89,6 +89,7 @@ body {
     font-size: 30px;
     font-weight: bold;
     text-align: center;
+    margin-top: 100px;
 }
 
 .main-content div img {
@@ -299,3 +300,63 @@ body {
     color: white;
 }
 
+.stick{
+    padding: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}
+.stick a {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1.5;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    letter-spacing: 2px;
+    min-width: 30px;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: center;
+    padding: 10px 30px;
+    color: black;
+    background-color: gainsboro;
+    height: 20px;
+    text-decoration: none;
+}
+.stick a:hover {
+    transform: scale(1.04);
+    background-color: #848b86;
+}
+.stick h2{
+    position: relative;
+    z-index: 1;
+    bottom: 25px;
+}
+
+.footer{
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 13px;
+    margin-bottom: 50px;
+}
+.footer a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 700;
+}
+.footer p{
+    font-weight: 700;
+    color: #333;
+}
