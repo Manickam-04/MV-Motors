@@ -58,6 +58,8 @@ body {
 
 .head ul li a:hover {
     box-shadow: #6a6a6a 0px 2px 7px;
+    padding: 8px 8px;
+    border-radius: 4px;
 }
 
 .rightend img {
